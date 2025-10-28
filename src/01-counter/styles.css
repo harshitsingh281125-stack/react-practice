@@ -1,0 +1,32 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+.counter-container-outer{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.counter-container-inner{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    align-items: center;
+}
+.counter-button{
+    background-color: beige;
+    padding: 4px;
+    cursor: pointer;
+}
+.counter-value{
+    font-size: 14px;
+    margin: 0 8px;
+}
+.reset-icon{
+    margin-left: 8px;
+    cursor: pointer;
+}
