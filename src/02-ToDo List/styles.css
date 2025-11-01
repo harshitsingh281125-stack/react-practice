@@ -1,0 +1,50 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+.list-input-container{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+.add-button{
+  margin-left: 8px;
+}
+.filter-container {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+.active-filter {
+  background-color: aqua;
+  border: 1px solid blue;
+  margin: 0 4px;
+  height: fit-content;
+}
+.nonActive-filter {
+  margin: 0 4px;
+  height: fit-content;
+}
+.lists{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.list-item i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0 8px;
+}
