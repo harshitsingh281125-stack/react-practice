@@ -1,0 +1,27 @@
+.accordian-container{
+    display: flex;
+    flex-direction: column;
+}
+.accordian-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.accordian-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.accordian-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-in-out;
+  background: #fff;
+}
+
+.accordian-inner {
+  padding: 10px 14px;
+}
