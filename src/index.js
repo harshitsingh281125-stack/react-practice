@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import TodoList from './02-ToDo List';
 import AccordianTabs from './03-accordian-tabs';
 import SignupForm from './04-signup Form';
+import SearchFilter from './05-SearchFilter';
 // import CounterApp from './01-counter/CounterApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,7 +15,8 @@ root.render(
     {/* <App /> */}
     {/* <CounterApp/> */}
     {/* <AccordianTabs/> */}
-    <SignupForm/>
+    {/* <SignupForm/> */}
+    <SearchFilter/>
     {/* <TodoList/> */}
   </React.StrictMode>
 );
