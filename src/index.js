@@ -7,6 +7,7 @@ import TodoList from './02-ToDo List';
 import AccordianTabs from './03-accordian-tabs';
 import SignupForm from './04-signup Form';
 import SearchFilter from './05-SearchFilter';
+import ToDoList2 from './06-ToDoList2';
 // import CounterApp from './01-counter/CounterApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,7 +17,8 @@ root.render(
     {/* <CounterApp/> */}
     {/* <AccordianTabs/> */}
     {/* <SignupForm/> */}
-    <SearchFilter/>
+    {/* <SearchFilter/> */}
+    <ToDoList2/>
     {/* <TodoList/> */}
   </React.StrictMode>
 );

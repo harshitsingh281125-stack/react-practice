@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+.inputRow{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.list-container{
+    display: flex;
+    flex-direction: column;
+}
+.filterSection{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    margin: 8px 0;
+}
+.listRow{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+}
